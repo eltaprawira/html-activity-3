@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tambah</title>
+    <style>
+        .container{
+        width: 250px;
+        margin-top: 10px;
+        border-collapse: collapse;
+        margin: auto;
+        border: 1px solid black;
+        padding: 10px;
+        }
+       .inpt{
+        border-radius: 5px;
+        margin-bottom: 10px;
+        }
+        .form-input{
+        display: flex;
+        flex-direction: column;
+        }
+        .btn{
+            margin-top: 20px;
+            margin-left: 170px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> 
+    <div>
+        <h1 align="center">Tambah barang</h1>
+    </div>
+    <div class="form-input"> 
+        <label for="nama">Nama Barang:</label>
+        <input type="text" class="inpt">
+    </div>
+    <div class="form-input"> 
+        <label for="kode">Kode Barang:</label>
+        <input type="text"  class="inpt">
+    </div>
+    <div class="form-input">
+        <label for="tanggal masuk">Tanggal Masuk:</label>
+        <input type="date"  class="inpt">
+    </div>
+    <div class="form-input"> 
+        <label for="tanggal expired">Tanggal Expired:</label>
+        <input type="date"  class="inpt">
+    </div>
+    <div class="form-input"> 
+        <label for="jumlah stok">Jumlah Stok:</label>
+        <input type="number"  class="inpt">
+    </div>
+    <div class="form-input">
+        <label for="harga beli">Harga Beli:</label>
+        <input type="number"  class="inpt">
+    </div>
+    <div class="form-input">
+        <label for="harga jual">Harga Jual:</label>
+        <input type="text"  class="inpt">
+    </div>
+    <button class="btn">Simpan</button>
+    </div>
+</body>
+</html>
